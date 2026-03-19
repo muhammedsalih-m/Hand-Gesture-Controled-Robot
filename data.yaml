@@ -1,0 +1,11 @@
+path: C:\Users\hp\OneDrive\Desktop\gesture_data\final_dataset_2
+train: images/train
+val: images/val
+
+kpt_shape: [21, 3]
+
+names:
+  0: stop
+  1: forward
+  2: left
+  3: right
