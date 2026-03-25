@@ -11,11 +11,6 @@ Watch the robot respond to real-time hand gestures:
 
 ---
 
-## 📸 Preview
-![Gesture Demo]()
-
----
-
 ## 🔍 Overview
 This project demonstrates a gesture-controlled robot using computer vision and embedded systems.  
 Hand gestures are detected using a YOLOv8 pose model, and commands are sent wirelessly to an ESP32 to control robot movement.
@@ -43,14 +38,34 @@ Hand gestures are detected using a YOLOv8 pose model, and commands are sent wire
 ## 📊 Results
 - Real-time gesture recognition  
 - High accuracy in controlled environments  
-- Smooth wireless communication
-- 🔮 Future Improvements
+- Smooth wireless communication  
+
+---
+
+## 📂 Project Details
+- Gesture detection implemented using Python and OpenCV  
+- YOLOv8 pose model used for hand keypoint detection  
+- ESP32 used for wireless robot control  
+- Supports gestures: Forward, Left, Right, Stop  
+
+---
+
+## 🔮 Future Improvements
 Add more gesture classes
 Improve dataset diversity
 Use onboard camera for full autonomy
-👥 Contributors
-Muhammed Salih
-Muhammed Ajmal
+
 ---
 
-## 📂 Project Structure
+##👥 Contributors
+Muhammed Salih
+Muhammed Ajmal
+
+---
+## 🔧 Installation
+```bash
+git clone https://github.com/muhammedsalih-m/Hand-Gesture-Controled-Robot
+cd Hand-Gesture-Controled-Robot
+pip install opencv-python ultralytics numpy
+
+---
