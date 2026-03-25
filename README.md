@@ -51,14 +51,14 @@ Hand gestures are detected using a YOLOv8 pose model, and commands are sent wire
 ---
 
 ## 🔮 Future Improvements
-Add more gesture classes
-Improve dataset diversity
+Add more gesture classes,
+Improve dataset diversity,
 Use onboard camera for full autonomy
 
 ---
 
 ##👥 Contributors
-Muhammed Salih
+Muhammed Salih,
 Muhammed Ajmal
 
 ---
